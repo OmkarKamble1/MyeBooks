@@ -1,0 +1,55 @@
+body {
+  overflow-x: hidden;
+}
+
+.err_div1 {
+  position: absolute;
+  right: 1%;
+  top: 20vh;
+  background-color: rgb(66, 66, 66);
+  width: 350px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  padding: 0 0 0 1%;
+  border-radius: 1em;
+  animation: trans 150ms;
+  box-shadow: 0 0 10px black;
+}
+@keyframes trans {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.err_div1 > h2 {
+  color: rgb(224, 224, 224);
+  margin-left: 3%;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 850px) {
+  .err_div1 {
+    background-color: rgb(66, 66, 66);
+    width: 250px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    padding: 0 0 0 1%;
+    border-radius: 1em;
+    animation: trans 150ms;
+    box-shadow: 0 0 10px black;
+  }
+  .err_div1 > h2 {
+    color: rgb(224, 224, 224);
+    margin-left: 3%;
+    font-weight: 400;
+    font-size: 15px;
+  }
+}

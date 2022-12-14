@@ -1,0 +1,176 @@
+.sign_div1 {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+.sign_div1 > form {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  width: 40%;
+  padding: 1% 3%;
+  border-radius: 1em;
+  border: solid 2px rgb(78, 78, 78);
+}
+
+.sign_div2 {
+  font-size: 13px;
+  color: aliceblue;
+}
+
+.sign_div2 > input {
+  border: none;
+  border-radius: 1em;
+  padding: 1% 2%;
+  width: 80%;
+  font-size: 18px;
+}
+
+.sign_div3 {
+  font-size: 13px;
+  color: aliceblue;
+}
+
+.sign_div3 > input {
+  border: none;
+  border-radius: 1em;
+  padding: 1% 2%;
+  width: 80%;
+  font-size: 18px;
+}
+.sign_div4 {
+  font-size: 13px;
+  color: aliceblue;
+}
+
+.sign_div4 > input {
+  border: none;
+  border-radius: 1em;
+  padding: 1% 2%;
+  width: 80%;
+  font-size: 18px;
+}
+
+.sign_div5 {
+  font-size: 13px;
+  color: aliceblue;
+}
+
+.sign_div5 > input {
+  border: none;
+  border-radius: 1em;
+  padding: 1% 2%;
+  width: 80%;
+  font-size: 18px;
+}
+
+.sign_div1 > form > button {
+  cursor: pointer;
+  border-radius: 1em;
+  margin-top: 10%;
+  margin-bottom: 4%;
+  width: 49%;
+  padding: 2.5% 2%;
+  font-size: 22px;
+  align-self: center;
+  font-weight: 600;
+  background-color: transparent;
+  border: solid 2px cadetblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.sign_div1 > form > button:hover {
+  transition: ease 200ms;
+  background-color: rgb(107, 178, 180);
+  color: rgb(0, 31, 39);
+  box-shadow: 0 0 16px black;
+}
+
+@media only screen and (max-width: 850px) {
+  .sign_div1 > form {
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    width: 50%;
+    padding: 1% 3%;
+    border-radius: 1em;
+    border: solid 2px rgb(78, 78, 78);
+  }
+
+  .sign_div2 {
+    font-size: 11px;
+    color: aliceblue;
+  }
+
+  .sign_div2 > input {
+    border: none;
+    border-radius: 1em;
+    padding: 1% 2%;
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .sign_div3 {
+    font-size: 11px;
+    color: aliceblue;
+  }
+
+  .sign_div3 > input {
+    border: none;
+    border-radius: 1em;
+    padding: 1% 2%;
+    width: 80%;
+    font-size: 15px;
+  }
+  .sign_div4 {
+    font-size: 11px;
+    color: aliceblue;
+  }
+
+  .sign_div4 > input {
+    border: none;
+    border-radius: 1em;
+    padding: 1% 2%;
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .sign_div5 {
+    font-size: 11px;
+    color: aliceblue;
+  }
+
+  .sign_div5 > input {
+    border: none;
+    border-radius: 1em;
+    padding: 1% 2%;
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .sign_div1 > form > button {
+    cursor: pointer;
+    border-radius: 1em;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    width: 49%;
+    padding: 2.5% 2%;
+    font-size: 22px;
+    align-self: center;
+    font-weight: 600;
+    background-color: transparent;
+    border: solid 2px cadetblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+
+  .sign_div1 > form > button:hover {
+    transition: ease 200ms;
+    background-color: rgb(107, 178, 180);
+    color: rgb(0, 31, 39);
+    box-shadow: 0 0 16px black;
+  }
+}

@@ -1,0 +1,111 @@
+.book_div1 {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 4%;
+  align-items: center;
+}
+.book_div2 {
+  width: 70%;
+  background-color: rgb(32, 32, 32);
+  border-radius: 1em;
+  border: solid 2px rgb(78, 78, 78);
+  padding: 2% 3%;
+  display: flex;
+}
+
+.book_div2 > img {
+  border-radius: 1em;
+  height: 250px;
+  width: 170px;
+}
+
+.book_div4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  row-gap: 10px;
+}
+
+.book_div4 > h1 {
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+}
+
+.book_div4 > h2 {
+  color: rgb(182, 182, 182);
+  margin-bottom: 1%;
+  margin-top: 1%;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.book_div4 > h3 {
+  color: rgb(182, 182, 182);
+  margin: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.book_div4 > h3 > a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.book_div2 > img:hover {
+  box-shadow: 0 0 10px cadetblue;
+  transition: all ease 200ms;
+}
+
+.book_div3 {
+  resize: none;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  padding: 1% 3%;
+  margin-top: 3%;
+  background-color: white;
+  border-radius: 0.5em;
+  height: 55vh;
+  width: 95%;
+  overflow-y: scroll;
+}
+
+.book_div3 > p {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 850px) {
+  .book_div2 > img {
+    border-radius: 1em;
+    height: 190px;
+    width: 120px;
+  }
+  .book_div4 > h1 {
+    color: aliceblue;
+    font-size: 23px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .book_div4 > h2 {
+    color: rgb(182, 182, 182);
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .book_div4 > h3 {
+    color: rgb(182, 182, 182);
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .book_div4 > h3 > a {
+    text-decoration: none;
+    color: cadetblue;
+  }
+}

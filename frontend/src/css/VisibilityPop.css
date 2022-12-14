@@ -1,0 +1,100 @@
+.pop_outerdiv {
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  box-shadow: 0px 0px 30px rgb(100, 100, 100);
+  border-radius: 1em;
+  height: 40%;
+  display: flex;
+  background-color: rgb(32, 32, 32);
+  border-radius: 1em;
+  border: solid 2px rgb(78, 78, 78);
+  width: 55%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pop_div1 > h1 {
+  color: aliceblue;
+  margin-bottom: 12%;
+}
+.pop_div3 {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.pop_div3 > button {
+  cursor: pointer;
+  border-radius: 1em;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  width: 45%;
+  padding: 2.5% 2%;
+  font-size: 22px;
+  align-self: center;
+  font-weight: 600;
+  background-color: transparent;
+  border: solid 2px cadetblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.pop_div3 > button:hover {
+  transition: ease 200ms;
+  background-color: rgb(107, 178, 180);
+  color: rgb(0, 31, 39);
+  box-shadow: 0 0 16px black;
+}
+
+.backdrop {
+  filter: opacity(30%) blur(10px);
+  user-select: none;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .pop_outerdiv {
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 0px 0px 30px rgb(100, 100, 100);
+    border-radius: 1em;
+    height: 26%;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    border-radius: 1em;
+    border: solid 2px rgb(78, 78, 78);
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pop_div1 > h1 {
+    color: aliceblue;
+    margin-bottom: 12%;
+    font-size: 25px;
+  }
+  .pop_div3 {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+  }
+  .pop_div3 > button {
+    cursor: pointer;
+    border-radius: 1em;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 2% 2%;
+    font-size: 20px;
+    align-self: center;
+    font-weight: 600;
+    background-color: transparent;
+    border: solid 2px cadetblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+}
