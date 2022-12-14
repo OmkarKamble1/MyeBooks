@@ -1,17 +1,14 @@
-# Hi, this is a result management website project. ❤️
-##### It is exclusively made for my college
+# Hi, this is a E-Book creator. ❤️
+##### It's a simple e-book creator
 
 ## Made with,
-- MongoDB Atlas
-- ExpressJS
 - ReactJS
+- ExpressJS
+- MongoDB Atlas
 - NodeJS 
 
-## Preview
-![prev](https://i.imgur.com/QlFFVd3.gif)
-*the gif quality lol*
 
 ## License
-Distributed under the MIT License. See  [`LICENSE.txt`](https://github.com/OmkarKamble1/Result-Management/blob/main/LICENSE.txt) for more information.
+MIT License. See  [`LICENSE.txt`](https://github.com/OmkarKamble1/Result-Management/blob/main/LICENSE.txt) for more information.
 
 ![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)
