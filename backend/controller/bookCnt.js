@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 
 const uri =
-  "mongodb+srv://admin:admin@ebookmaker.kpixcqc.mongodb.net/books?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<password>@ebookmaker.kpixcqc.mongodb.net/books?retryWrites=true&w=majority";
 
 const uri2 =
-  "mongodb+srv://admin:admin@ebookmaker.kpixcqc.mongodb.net/users?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<password>@ebookmaker.kpixcqc.mongodb.net/users?retryWrites=true&w=majority";
 
 module.exports.bookCnt = async (request, response) => {
   const { username, isUser } = request.body;
