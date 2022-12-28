@@ -5,9 +5,8 @@ const mongoose = require("mongoose");
 const routes = require("./routes/AllRoutes");
 const bodyparser = require("body-parser");
 const port = process.env.PORT;
-const uri =
-  "mongodb+srv://admin:admin@ebookmaker.kpixcqc.mongodb.net/?retryWrites=true&w=majority";
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded());
