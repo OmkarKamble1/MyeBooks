@@ -9,6 +9,6 @@
 
 
 ## License
-MIT License. See  [`LICENSE.txt`](https://github.com/OmkarKamble1/Result-Management/blob/main/LICENSE.txt) for more information.
+MIT License.
 
 ![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)
